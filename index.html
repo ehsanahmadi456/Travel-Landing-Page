@@ -1,1 +1,993 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trauminsel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-body">
+    <header class="site-header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="logo-text">Trauminsel</div>
+          </div>
+          <nav class="main-nav">
+            <a href="#about" class="nav-link">Über die Insel</a>
+            <a href="#activities" class="nav-link">Aktivitäten</a>
+            <a href="#contact" class="nav-link">Kontakt</a>
+          </nav>
+          <div class="header-actions">
+            <button class="btn btn-primary">Jetzt buchen</button>
+            <button class="mobile-menu-btn">
+              <i data-lucide="menu" class="menu-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <nav class="mobile-nav-menu">
+            <a href="#about" class="mobile-nav-link">Über die Insel</a>
+            <a href="#activities" class="mobile-nav-link">Aktivitäten</a>
+            <a href="#contact" class="mobile-nav-link">Kontakt</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Willkommen auf der Trauminsel</h1>
+          <p class="hero-subtitle">
+            Entdecken Sie das Paradies auf Erden - kristallklares Wasser, weiße
+            Sandstrände und unvergessliche Abenteuer erwarten Sie
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-hero-primary">Jetzt Reise buchen</button>
+            <button class="btn btn-hero-secondary">Mehr erfahren</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./images/island.jpg"
+            alt="Trauminsel"
+            width="1200"
+            height="675"
+            class="hero-img"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-content">
+              <h2 class="section-title">Über die Insel</h2>
+              <p class="section-text">
+                Die Insel ist ein wahres Juwel im Herzen des Pazifiks. Mit ihren
+                unberührten Stränden, dem kristallklaren türkisfarbenen Wasser
+                und der üppigen tropischen Vegetation bietet sie das perfekte
+                Refugium für alle, die dem Alltag entfliehen möchten.
+              </p>
+              <p class="section-text">
+                Unsere Insel erstreckt sich über 15 Quadratkilometer und
+                beherbergt eine einzigartige Vielfalt an Flora und Fauna. Von
+                den majestätischen Korallenriffen bis hin zu den mystischen
+                Regenwäldern im Inselinneren - verzaubert jeden Besucher mit
+                ihrer natürlichen Schönheit.
+              </p>
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">365</div>
+                  <div class="stat-label">Sonnentage im Jahr</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">28°C</div>
+                  <div class="stat-label">Durchschnittstemperatur</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">12km</div>
+                  <div class="stat-label">Traumhafte Strände</div>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <img
+                src="./images/island-2.webp"
+                alt="island"
+                width="800"
+                height="600"
+                class="about-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="activities" class="activities-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Aktivitäten</h2>
+            <p class="section-description">
+              Erleben Sie unvergessliche Abenteuer und entspannende Momente in
+              unserem tropischen Paradies
+            </p>
+          </div>
+          <div class="activities-grid">
+            <div class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="./images/Schnorcheln & Tauchen .webp"
+                  alt="Schnorcheln in den Korallenriffen"
+                  width="400"
+                  height="225"
+                  class="activity-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Schnorcheln &#x26; Tauchen</h3>
+                <p class="activity-description">
+                  Entdecken Sie die farbenfrohe Unterwasserwelt. Unsere
+                  Korallenriffe beherbergen über 200 Fischarten und bieten
+                  spektakuläre Tauchgänge für Anfänger und Profis.
+                </p>
+                <div class="activity-price">
+                  <span>Ab 45€ pro Person</span>
+                </div>
+              </div>
+            </div>
+            <div class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="./images/Regenwald-Wanderungen.webp"
+                  alt="Wanderung durch den Regenwald"
+                  width="400"
+                  height="225"
+                  class="activity-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Regenwald-Wanderungen</h3>
+                <p class="activity-description">
+                  Erkunden Sie die mystischen Pfade durch unseren tropischen
+                  Regenwald. Entdecken Sie versteckte Wasserfälle, exotische
+                  Pflanzen und die einzigartige Tierwelt der Insel.
+                </p>
+                <div class="activity-price">
+                  <span>Ab 35€ pro Person</span>
+                </div>
+              </div>
+            </div>
+            <div class="activity-card">
+              <div class="activity-image">
+                <img
+                  src="./images/Sonnenuntergang-Segeltour.webp"
+                  alt="Sonnenuntergang-Segeltour"
+                  width="400"
+                  height="225"
+                  class="activity-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Sonnenuntergang-Segeltour</h3>
+                <p class="activity-description">
+                  Genießen Sie eine romantische Segeltour bei Sonnenuntergang.
+                  Erleben Sie die magischen Farben des Himmels, während Sie
+                  sanft über das ruhige Meer gleiten.
+                </p>
+                <div class="activity-price">
+                  <span>Ab 75€ pro Person</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-cta">
+            <button class="btn btn-primary btn-large">
+              Alle Aktivitäten entdecken
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="benefits-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Warum Trauminsel Azura?</h2>
+            <p class="section-description">
+              Entdecken Sie die einzigartigen Vorzüge unserer paradiesischen
+              Insel und erleben Sie unvergessliche Momente in tropischer
+              Schönheit.
+            </p>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefits-list">
+              <div class="benefit-item">
+                <div class="benefit-icon benefit-icon-1">
+                  <svg
+                    class="benefit-svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h3 class="benefit-title">Ganzjährig perfektes Klima</h3>
+                  <p class="benefit-text">
+                    Genießen Sie 365 Tage im Jahr angenehme Temperaturen
+                    zwischen 24-28°C und über 300 Sonnentage.
+                  </p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon benefit-icon-2">
+                  <svg
+                    class="benefit-svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h3 class="benefit-title">Unberührte Naturschönheit</h3>
+                  <p class="benefit-text">
+                    Kristallklares Wasser, weiße Sandstrände und üppige
+                    Regenwälder - ein wahres Naturparadies.
+                  </p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon benefit-icon-3">
+                  <svg
+                    class="benefit-svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h3 class="benefit-title">Abenteuer für jeden Geschmack</h3>
+                  <p class="benefit-text">
+                    Von entspannten Strandtagen bis hin zu aufregenden
+                    Wassersportaktivitäten und Dschungeltouren.
+                  </p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon benefit-icon-4">
+                  <svg
+                    class="benefit-svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h3 class="benefit-title">Herzliche Gastfreundschaft</h3>
+                  <p class="benefit-text">
+                    Erleben Sie die warmherzige Kultur der Einheimischen und
+                    authentische kulinarische Köstlichkeiten.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="benefits-image">
+              <img
+                src="./images/Trauminsel Azura.webp"
+                alt="Trauminsel Azura"
+                width="800"
+                height="600"
+                class="benefits-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Was unsere Gäste sagen</h2>
+            <p class="section-description">
+              Lesen Sie authentische Erfahrungsberichte von Besuchern, die
+              bereits das Paradies Trauminsel Azura erlebt haben.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <div class="testimonial-card testimonial-card-1">
+              <div class="testimonial-header">
+                <img
+                  src="./images/Kundin.webp"
+                  alt="Kundin"
+                  width="80"
+                  height="80"
+                  class="testimonial-avatar"
+                  loading="lazy"
+                />
+                <div>
+                  <h3 class="testimonial-name">Sarah M.</h3>
+                  <p class="testimonial-location">München, Deutschland</p>
+                  <div class="stars">
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <blockquote class="testimonial-text">
+                "Trauminsel Azura hat all unsere Erwartungen übertroffen! Die
+                Strände sind atemberaubend, das Wasser kristallklar und die
+                Einheimischen unglaublich freundlich. Besonders das Schnorcheln
+                am Korallenriff war ein unvergessliches Erlebnis. Wir kommen
+                definitiv wieder!"
+              </blockquote>
+              <p class="testimonial-date">Aufenthalt: März 2024 • 10 Tage</p>
+            </div>
+
+            <div class="testimonial-card testimonial-card-2">
+              <div class="testimonial-header">
+                <img
+                  src="./images/Kunde.webp"
+                  alt="Kunde"
+                  width="80"
+                  height="80"
+                  class="testimonial-avatar"
+                  loading="lazy"
+                />
+                <div>
+                  <h3 class="testimonial-name">Michael K.</h3>
+                  <p class="testimonial-location">Wien, Österreich</p>
+                  <div class="stars">
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                    <svg class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <blockquote class="testimonial-text">
+                "Als Abenteurer war ich begeistert von den vielfältigen
+                Aktivitäten auf Azura. Die Dschungeltour war spektakulär, das
+                Tauchen weltklasse und die lokale Küche ein Genuss. Die
+                Organisation war perfekt und das Personal hilfsbereit. Ein
+                Traumurlaub, den ich jedem empfehlen kann!"
+              </blockquote>
+              <p class="testimonial-date">Aufenthalt: Januar 2024 • 14 Tage</p>
+            </div>
+          </div>
+
+          <div class="rating-summary">
+            <div class="rating-info">
+              <svg class="rating-star" viewBox="0 0 20 20">
+                <path
+                  d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+                ></path>
+              </svg>
+              <span class="rating-score">4.9/5</span>
+              <span class="rating-separator">•</span>
+              <span class="rating-count">Basierend auf 247 Bewertungen</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="faq-section">
+        <div class="faq-container">
+          <div class="section-header">
+            <h2 class="section-title">Häufig gestellte Fragen</h2>
+            <p class="section-description">
+              Hier finden Sie Antworten auf die wichtigsten Fragen rund um Ihren
+              Aufenthalt auf Trauminsel Azura.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">Wie erreiche ich Trauminsel Azura?</h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Die Anreise erfolgt über den internationalen Flughafen Azura
+                  City. Direktflüge sind von München, Wien und Zürich verfügbar
+                  (Flugzeit ca. 8 Stunden). Vom Flughafen bieten wir einen
+                  kostenlosen Shuttleservice zu allen Hotels an. Alternativ
+                  können Sie auch mit der Fähre von der Nachbarinsel anreisen.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">
+                  Welche Unterkunftsmöglichkeiten gibt es?
+                </h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Wir bieten verschiedene Unterkunftsoptionen: Luxusresorts
+                  direkt am Strand, gemütliche Boutique-Hotels im Dschungel,
+                  traditionelle Bungalows über dem Wasser und Budget-freundliche
+                  Gästehäuser im Dorfzentrum. Alle Unterkünfte sind sorgfältig
+                  ausgewählt und bieten hohen Komfort mit authentischem
+                  Inselflair.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">Wann ist die beste Reisezeit?</h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Trauminsel Azura ist ganzjährig ein perfektes Reiseziel. Die
+                  Trockenzeit von November bis April bietet die wenigsten
+                  Niederschläge und ist ideal für Outdoor-Aktivitäten. Die
+                  Regenzeit von Mai bis Oktober bringt kurze, erfrischende
+                  Schauer und üppige grüne Landschaften. Die Temperaturen
+                  bleiben konstant zwischen 24-28°C.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">Welche Aktivitäten werden angeboten?</h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Unser Aktivitätenprogramm ist vielfältig: Schnorcheln und
+                  Tauchen am Korallenriff, Dschungelwanderungen zu versteckten
+                  Wasserfällen, Kajak-Touren durch Mangrovenwälder, Kulturelle
+                  Dorfbesuche, Kochkurse, Yoga am Strand, Angeln, Surfen und
+                  entspannende Spa-Behandlungen. Für jeden Geschmack ist etwas
+                  dabei!
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">Benötige ich ein Visum?</h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Deutsche, österreichische und schweizer Staatsangehörige
+                  benötigen für Aufenthalte bis zu 90 Tagen kein Visum. Ein
+                  gültiger Reisepass (mindestens 6 Monate gültig) reicht aus.
+                  Bei der Einreise erhalten Sie kostenlos einen
+                  Touristenstempel. Für längere Aufenthalte kontaktieren Sie
+                  bitte das Konsulat.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                <h3 class="faq-title">Wie ist die medizinische Versorgung?</h3>
+                <svg
+                  class="faq-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <p>
+                  Auf Azura gibt es ein modernes Krankenhaus und mehrere
+                  Kliniken mit europäischen Standards. Viele Ärzte sprechen
+                  Englisch oder Deutsch. Wir empfehlen dennoch eine
+                  Auslandskrankenversicherung. Besondere Impfungen sind nicht
+                  erforderlich, eine Standardimpfung wird empfohlen. Apotheken
+                  sind gut ausgestattet.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-cta">
+            <p class="faq-cta-text">Haben Sie weitere Fragen?</p>
+            <a href="#" class="btn faq-contact-btn">
+              <svg
+                class="faq-contact-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+              Kontaktieren Sie uns
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 class="section-title">Kontakt &#x26; Buchung</h2>
+              <p class="contact-description">
+                Haben Sie Fragen zu unserer Trauminsel oder möchten Sie Ihren
+                unvergesslichen Urlaub buchen? Kontaktieren Sie uns – wir helfen
+                Ihnen gerne bei der Planung Ihrer perfekten Reise.
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-detail">
+                  <div class="contact-icon">
+                    <svg
+                      class="contact-svg"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-title">Telefon</h3>
+                    <p class="contact-detail-text">+49 (0) 123 456 789</p>
+                  </div>
+                </div>
+
+                <div class="contact-detail">
+                  <div class="contact-icon">
+                    <svg
+                      class="contact-svg"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-title">E-Mail</h3>
+                    <p class="contact-detail-text">info@trauminsel-xyz.de</p>
+                  </div>
+                </div>
+
+                <div class="contact-detail">
+                  <div class="contact-icon">
+                    <svg
+                      class="contact-svg"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-title">Öffnungszeiten</h3>
+                    <p class="contact-detail-text">
+                      Mo-Fr: 9:00-18:00 Uhr<br />Sa: 10:00-16:00 Uhr
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <img
+                src="./images/Kundenservice.webp"
+                alt="Freundlicher Kundenservice für Ihre Reisebuchung"
+                width="800"
+                height="600"
+                class="contact-visual-img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="contact-form-container">
+              <h3 class="form-title">Anfrage senden</h3>
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    class="form-input"
+                    placeholder="Ihr vollständiger Name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">E-Mail *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    class="form-input"
+                    placeholder="ihre.email@beispiel.de"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone" class="form-label">Telefon</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-input"
+                    placeholder="+49 123 456 789"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Nachricht *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    class="form-textarea"
+                    placeholder="Teilen Sie uns Ihre Wünsche mit: Reisedatum, Anzahl Personen, besondere Anforderungen..."
+                  ></textarea>
+                </div>
+
+                <div class="form-checkbox">
+                  <input
+                    type="checkbox"
+                    id="privacy"
+                    name="privacy"
+                    required
+                    class="checkbox-input"
+                  />
+                  <label for="privacy" class="checkbox-label">
+                    Ich stimme der Verarbeitung meiner Daten gemäß der
+                    <a href="#" class="privacy-link">Datenschutzerklärung</a>
+                    zu. *
+                  </label>
+                </div>
+
+                <button type="submit" class="btn form-submit-btn">
+                  Anfrage senden
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cta" class="cta-section">
+        <div class="cta-bg">
+          <img
+            src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f881df8e-f64d-4b29-a9e8-4ceedeab5760/f881df8e-f64d-4b29-a9e8-4ceedeab5760/cta/cta-background-5010e8db7ab04be2b950646fd76dca66.png"
+            alt="Traumhafter Sonnenuntergang über der Trauminsel"
+            width="1600"
+            height="900"
+            class="cta-bg-img"
+            loading="lazy"
+          />
+          <div class="cta-overlay"></div>
+        </div>
+
+        <div class="cta-content">
+          <h2 class="cta-title">Ihr Traumurlaub wartet auf Sie!</h2>
+
+          <p class="cta-subtitle">
+            Entdecken Sie das Paradies auf Erden. Kristallklares Wasser, endlose
+            Sandstrände und unvergessliche Abenteuer erwarten Sie auf unserer
+            Trauminsel.
+          </p>
+
+          <div class="cta-features">
+            <div class="cta-feature">
+              <svg
+                class="cta-feature-icon cta-feature-icon-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <span class="cta-feature-text">4.9/5 Sterne Bewertung</span>
+            </div>
+
+            <div class="cta-feature">
+              <svg
+                class="cta-feature-icon cta-feature-icon-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+              <span class="cta-feature-text">100% Zufriedenheitsgarantie</span>
+            </div>
+
+            <div class="cta-feature">
+              <svg
+                class="cta-feature-icon cta-feature-icon-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
+                ></path>
+              </svg>
+              <span class="cta-feature-text">Beste Preise garantiert</span>
+            </div>
+          </div>
+
+          <div class="cta-buttons">
+            <a href="#" class="btn cta-primary-btn">
+              Jetzt buchen &#x26; 20% sparen!
+            </a>
+
+            <a href="#" class="btn cta-secondary-btn"> Kostenlose Beratung </a>
+          </div>
+
+          <p class="cta-notice">
+            ⏰ Limitiertes Angebot: Nur noch wenige Plätze für die Sommersaison
+            verfügbar!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-info">
+            <div class="footer-logo">Trauminsel</div>
+            <p class="footer-description">
+              Ihr Traumurlaub wartet auf Sie. Entdecken Sie das Paradies auf
+              Erden mit kristallklarem Wasser, weißen Sandstränden und
+              unvergesslichen Erlebnissen.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-link">
+                <i data-lucide="facebook" class="social-icon"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i data-lucide="instagram" class="social-icon"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i data-lucide="twitter" class="social-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-title">Reiseziel</h3>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" class="footer-link">Über die Insel</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Aktivitäten</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Unterkünfte</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Anreise</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-title">Service</h3>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" class="footer-link">Kontakt</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Buchung</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            © 2025 Trauminsel. Alle Rechte vorbehalten.
+          </div>
+          <div class="footer-legal">
+            <a href="#" class="footer-legal-link">Datenschutz</a>
+            <a href="#" class="footer-legal-link">Impressum</a>
+            <a href="#" class="footer-legal-link">AGB</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
